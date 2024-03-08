@@ -1,0 +1,68 @@
+/* Resetting default browser styles */
+
+
+
+body{
+    background-image: url('https://photonfact.weebly.com/uploads/2/6/4/0/26401694/8752886186_8fe2e6a917_o.jpg');
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+/* Styling header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling navigation */
+nav {
+    background-color: #333;
+    color: #1f021b;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #8eea1e;
+    text-decoration: none;
+}
+
+/* Styling main content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #ea7c0f;
+    text-align: center;
+    padding: 20px;
+}
+
+.element {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.Oib-MHqWN24cNLRp03WOuwHaE9&pid=Api&P=0&h=220');
+    background-size: cover; /* Optional: Resize the background image to cover the entire element */
+    /* Other background properties like background-position, background-repeat, etc. can be added as needed */
+}

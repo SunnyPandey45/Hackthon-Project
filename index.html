@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Animals</title>
+    <style>
+        body {
+            background-image: url('https://images.creativemarket.com/0.1.0/ps/7658448/1820/1213/m1/fpnw/wm1/sxz2erbcack0c9mvqn7hh36vgymtzdvuqox4oanqntfdsxx9icbmcbrmwxovw4gv-.jpg?1580156738&s=74e57ecf90aa45976dd56d17f9ad936c');
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+            
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #666;
+        }
+        nav a:hover {
+            background-color: #888;
+        }
+        section {
+            padding: 20px;
+        }
+        .animal-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .animal-card {
+            width: 300px;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .animal-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .animal-card h2 {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Zoo</h1>
+    </header>
+    <nav>
+        <a href="#mammals">Mammals</a>
+        <a href="#birds">Birds</a>
+        <a href="#reptiles">Reptiles</a>
+        <a href="#fish">Fish</a>
+    </nav>
+    <section id="mammals">
+        <h2>Mammals</h2>
+        <div class="animal-container">
+            <div class="animal-card">
+                <img src="mammal1.jpg" alt="Lion">
+                <h2>Lion</h2>
+            </div>
+            <div class="animal-card">
+                <img src="mammal2.jpg" alt="Elephant">
+                <h2>Elephant</h2>
+            </div>
+            <!-- Add more mammal cards as needed -->
+        </div>
+    </section>
+    <section id="birds">
+        <h2>Birds</h2>
+        <div class="animal-container">
+            <div class="animal-card">
+                <img src="bird1.jpg" alt="Parrot">
+                <h2>Parrot</h2>
+            </div>
+            <div class="animal-card">
+                <img src="bird2.jpg" alt="Penguin">
+                <h2>Penguin</h2>
+            </div>
+            <!-- Add more bird cards as needed -->
+        </div>
+    </section>
+    <section id="reptiles">
+        <h2>Reptiles</h2>
+        <div class="animal-container">
+            <div class="animal-card">
+                <img src="reptile1.jpg" alt="Snake">
+                <h2>Snake</h2>
+            </div>
+            <div class="animal-card">
+                <img src="reptile2.jpg" alt="Turtle">
+                <h2>Turtle</h2>
+            </div>
+            <!-- Add more reptile cards as needed -->
+        </div>
+    </section>
+    <section id="fish">
+        <h2>Fish</h2>
+        <div class="animal-container">
+            <div class="animal-card">
+                <img src="fish1.jpg" alt="Goldfish">
+                <h2>Goldfish</h2>
+            </div>
+            <div class="animal-card">
+                <img src="fish2.jpg" alt="Shark">
+                <h2>Shark</h2>
+            </div>
+            <!-- Add more fish cards as needed -->
+        </div>
+    </section>
+    <script>
+        // You can add JavaScript code here for additional interactivity
+    </script>
+</body>
+</html>
